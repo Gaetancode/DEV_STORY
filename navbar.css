@@ -2,17 +2,21 @@
 #navbar {
   background-color: var(--navbar-color);
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
+  height: 60px;
 }
-
 #navbar > img {
   margin-left: 20px;
   width: 9vh;
   padding: 10px;
   position: absolute;
-  left: 0;
+  left: 0px;
 }
-
+.nav-element {
+  display: flex;
+  margin: auto;
+}
 ul {
   list-style: none;
   display: flex;
