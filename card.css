@@ -1,0 +1,43 @@
+/* box's css */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+}
+.card {
+  display: block;
+  text-align: right;
+  width: 25%;
+}
+.card-picture img {
+  border-radius: 7px 7px 7px 0px;
+}
+.decoration {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  bottom: -20px;
+}
+.card-picture img {
+  width: 100%;
+  height: 100%;
+}
+.card-title {
+  padding: 15px 15px 5px 15px;
+}
+.card-description {
+  padding-right: 15px;
+}
+.date {
+  padding: 15px;
+}
+
+.card-content {
+  position: relative;
+  top: -95px;
+}
