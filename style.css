@@ -1,0 +1,12 @@
+/* reset.css */
+* {
+  margin: 0;
+}
+/* custom css */
+:root {
+  --bgdColor: #212121;
+  --white: #fff;
+  --navbar: #3a4042;
+  --button: #50717b;
+  font-size: 16px;
+}
