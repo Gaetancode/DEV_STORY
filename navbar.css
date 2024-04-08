@@ -1,0 +1,27 @@
+/* navbar css */
+#navbar {
+  background-color: var(--navbar-color);
+  display: flex;
+  justify-content: center;
+}
+
+#navbar > img {
+  margin-left: 20px;
+  width: 9vh;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  li {
+    margin: 0 10px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--white);
+  }
+}
